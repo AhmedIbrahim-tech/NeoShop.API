@@ -46,28 +46,28 @@ namespace API.Controllers
             return NewResult(await Mediator.Send(new DeleteRoleCommand(id)));
         }
 
-        [SwaggerOperation(Summary = " ????? ??????? ??????????", OperationId = "ManageUserRoles")]
+        [SwaggerOperation(OperationId = "ManageUserRoles")]
         [HttpGet(Router.Authorization.ManageUserRoles)]
         public async Task<IActionResult> ManageUserRoles([FromRoute] Guid id)
         {
             return NewResult(await Mediator.Send(new ManageUserRolesQuery(id)));
         }
 
-        [SwaggerOperation(Summary = " ????? ??????? ??????????", OperationId = "UpdateUserRoles")]
+        [SwaggerOperation(OperationId = "UpdateUserRoles")]
         [HttpPut(Router.Authorization.UpdateUserRoles)]
         public async Task<IActionResult> UpdateUserRoles([FromBody] UpdateUserRolesCommand command)
         {
             var response = await Mediator.Send(command);
             return NewResult(response);
         }
-        [SwaggerOperation(Summary = " ????? ??????? ????????? ??????????", OperationId = "ManageUserClaims")]
+        [SwaggerOperation(OperationId = "ManageUserClaims")]
         [HttpGet(Router.Authorization.ManageUserClaims)]
         public async Task<IActionResult> ManageUserClaims([FromRoute] Guid id)
         {
             return NewResult(await Mediator.Send(new ManageUserClaimsQuery(id)));
         }
 
-        [SwaggerOperation(Summary = " ????? ??????? ????????? ??????????", OperationId = "UpdateUserClaims")]
+        [SwaggerOperation(OperationId = "UpdateUserClaims")]
         [HttpPut(Router.Authorization.UpdateUserClaims)]
         public async Task<IActionResult> UpdateUserClaims([FromBody] UpdateUserClaimsCommand command)
         {

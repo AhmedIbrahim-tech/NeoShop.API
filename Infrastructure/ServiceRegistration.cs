@@ -74,7 +74,7 @@ public static class ServiceRegistration
         {
             options.SwaggerDoc("v1", new OpenApiInfo
             {
-                Title = "E-Commerce Project",
+                Title = "Tajerly Project",
                 Version = "v1",
                 Description = "Clean Architecture Project"
             });

@@ -127,8 +127,8 @@ public class EmailsService : IEmailsService
         };
         var message = new MimeMessage();
         message.Body = bodybuilder.ToMessageBody();
-        message.From.Add(new MailboxAddress("E-Commerce Support", _emailSettings.FromEmail)); // Display Name, Email Address of source
-        message.To.Add(new MailboxAddress("ECommerce", email)); // Email Address of destination
+        message.From.Add(new MailboxAddress("Tajerly Support", _emailSettings.FromEmail)); // Display Name, Email Address of source
+        message.To.Add(new MailboxAddress("Tajerly", email)); // Email Address of destination
         message.Subject = emailType switch // The text that will be pressed (Provided Link)
         {
             EmailType.ConfirmEmail => "Confirm Your Email",

@@ -1,11 +1,11 @@
-# 🛍️ Modern E-Commerce Platform
+# 🛍️ Modern Tajerly Platform
 
 A comprehensive **.NET 9** backend API built with **Clean Architecture** principles, engineered for **scalability**, **maintainability**, and **enterprise-grade performance**.
 
 ---
 
 ## 🎯 Project Overview
-A robust e-commerce platform designed to manage online stores, products, and orders with advanced features including **dynamic promotions**, **customer reviews**, and flexible **delivery/payment solutions**.
+A robust Tajerly platform designed to manage online stores, products, and orders with advanced features including **dynamic promotions**, **customer reviews**, and flexible **delivery/payment solutions**.
 
 ---
 
@@ -175,4 +175,4 @@ This architecture ensures **testability**, **maintainability**, and **independen
 
 ## 🏷 Tags
 
-`.NET 9` `.AspNetCore` `.WebAPI` `.CSharp` `.CleanArchitecture` `.JWT` `.CQRS` `.EFCore` `.FluentValidation` `.Paymob` `.MailKit` `.SignalR` `.Serilog` `.MemoryCache` `.Azure` `.OAuth` `.SoftwareEngineering` `.ECommerce` `.BackendDevelopment` `.MultiLayeredArchitecture` `.DatabaseDesign`
+`.NET 9` `.AspNetCore` `.WebAPI` `.CSharp` `.CleanArchitecture` `.JWT` `.CQRS` `.EFCore` `.FluentValidation` `.Paymob` `.MailKit` `.SignalR` `.Serilog` `.MemoryCache` `.Azure` `.OAuth` `.SoftwareEngineering` `.Tajerly` `.BackendDevelopment` `.MultiLayeredArchitecture` `.DatabaseDesign`
